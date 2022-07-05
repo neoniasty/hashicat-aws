@@ -4,6 +4,7 @@ module "s3-bucket" {
   
   bucket = "my-s3-bucket1"
   acl    = "private"
+  bucket_prefix = "michalb"
 
   versioning = {
     enabled = true
